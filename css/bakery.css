@@ -1,0 +1,112 @@
+* {
+  font-family: "Alegreya", serif;
+  text-transform: capitalize;
+}
+:root {
+  --main-color: #8e7754;
+}
+
+.cover {
+  background-image: url(../img/drew-coffman-1872.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: 100% 100%;
+}
+h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  font-family: "Lora", serif;
+}
+h2 {
+  font-size: 40px;
+  padding-top: 50px;
+}
+.cover p {
+  font-size: x-large;
+}
+.btn:first-child {
+  background: var(--main-color);
+}
+.btn:last-child {
+  border: white solid 3px;
+  color: white;
+}
+
+.btn:first-child:hover {
+  background-color: transparent;
+  border: white solid 3px;
+  color: white;
+}
+.btn:last-child:hover {
+  background-color: var(--main-color);
+  border: 0;
+  color: black;
+}
+.ame {
+  width: 30px;
+  height: 50px;
+  border: white 3px solid;
+  border-radius: 25px;
+  margin-top: 90px;
+}
+.we {
+  line-height: 40px;
+}
+.inner {
+  margin-top: 50px;
+}
+
+.are-we {
+  margin-top: 100px;
+}
+
+i {
+  color: var(--main-color);
+  border: 2px solid #8e7754;
+  padding: 10px;
+  border-radius: 50%;
+}
+.end {
+  background-color: #403d38;
+}
+.item {
+  background-image: url(../img/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.final {
+  background-color: #403d38;
+}
+
+a {
+  color: white !important;
+}
+a:hover {
+  color: #8e7754 !important;
+}
+
+.dot {
+  background-color: aliceblue;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 0;
+  opacity: 100;
+  animation-name: dots;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes dots {
+  0% {
+    margin-top: 0%;
+    opacity: 75%;
+  }
+  
+  100% {
+    margin-top: 100%;
+    opacity: 0;
+  }
+}
